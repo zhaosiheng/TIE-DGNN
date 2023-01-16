@@ -45,7 +45,7 @@ opt = parser.parse_args()
 opt.layer_num = 2
 opt.in_dims = [100,100]#，每一层输入的hiddensize 无论如何都要保证每一层的hiddensize相同
 opt.global_channels = [5,5]
-opt.c_dims_global = [50,50]
+opt.c_dims_global = [10,10]
 
 
 
