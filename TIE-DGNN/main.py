@@ -43,7 +43,7 @@ parser.add_argument('--DL_dropout', type=float, default=0.1, help='Dropout rate.
 parser.add_argument('--numcuda', type=int, default=0,help='which GPU train')
 opt = parser.parse_args()
 opt.layer_num = 2
-opt.in_dims = [275,275]#，每一层输入的hiddensize 无论如何都要保证每一层的hiddensize相同
+opt.in_dims = [100,100]#，每一层输入的hiddensize 无论如何都要保证每一层的hiddensize相同
 opt.global_channels = [5,5]
 opt.c_dims_global = [55,55]
 
